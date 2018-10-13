@@ -1,0 +1,19 @@
+service: bothrworthywebhook # NOTE: update this with your service name
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: ap-south-1
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - ssm:GetParameters
+      Resource: "rn:aws:ssm:ap-south-1:<account-id>/parameter/*"
+functions:
+  bothrworthyWebhook:
+    handler: handler.bothrworthyWebhook
+    events:
+      - http:
+          path: bothrworthywebhook
+          method: post
+plugins:
+  - serverless-offline          
