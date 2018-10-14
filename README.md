@@ -1,6 +1,6 @@
 # Build-Incredible-Chatbots
 
-## ChatBot
+## [ChatBot](https://github.com/Amitha353/Build-Incredible-Chatbots/wiki)
 #### A computer program that can interact with a human through a chat interface and is designed to simulate a human. Conversation Agents or Dialog Systems. Example -> SIRI, Google Now -> voice based chatbots.
 
 ## Chatbots Implemented
