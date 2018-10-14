@@ -4,7 +4,7 @@
 #### A computer program that can interact with a human through a chat interface and is designed to simulate a human. Conversation Agents or Dialog Systems. Example -> SIRI, Google Now -> voice based chatbots.
 
 ## Chatbots Implemented
-### 1. BotBee - A Bot Fun to Chat!
+### 1. [BotBee - A Bot Fun to Chat!](https://github.com/Amitha353/Build-Incredible-Chatbots/wiki/BotBee---Fun-to-chat!)
    * Chatfuel, No Code, Facebook Messenger.
 ### 2. Rule-Based Weather Bot
    * Terminal chatbot, regular expression, Yahoo weather API.
